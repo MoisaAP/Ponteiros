@@ -17,7 +17,7 @@ void main(void){
 	aluno *paln = &aln;
 	
 	printf (" Informe o nome do aluno: ");
-	scanf  ("%s", aln.nome);
+	scanf  ("%s", &aln.nome);
 	printf ("\n Informe a matricula: ");
 	scanf  ("%d", &aln.matricula);
 	printf ("\n Informe a turma: ");
