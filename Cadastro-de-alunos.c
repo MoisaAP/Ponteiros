@@ -1,6 +1,6 @@
-/*  6 Construa um programa que tenha uma estrutura para cadastrar alunos, contendo o nome do aluno,
-a matrícula e a turma. Cadastre os dados de uma aluno e exiba-os em tela por acesso direto à
-struct. Após isso, exiba-os novamente, mediante uso de um ponteiro para a struct. */
+/* Construa um programa que tenha uma estrutura para cadastrar alunos, contendo o nome do aluno,
+a matrÃ­cula e a turma. Cadastre os dados de uma aluno e exiba-os em tela por acesso direto Ã 
+struct. ApÃ³s isso, exiba-os novamente, mediante uso de um ponteiro para a struct. */
 
 #include <stdio.h>
 #include <stdio.h>
@@ -12,11 +12,9 @@ typedef struct {
 	int turma;
 } aluno;
 
-
 void main(void){
 	aluno aln;
 	aluno *paln = &aln;
-	int i;
 	
 	printf (" Informe o nome do aluno: ");
 	scanf  ("%s", aln.nome);
